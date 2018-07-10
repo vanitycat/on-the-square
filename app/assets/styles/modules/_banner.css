@@ -1,0 +1,21 @@
+.banner {
+  width: 100%;
+  background-color: $peach;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @mixin atMedium {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  &--middle {
+    background-color: $off-white;
+  }
+
+  &__title {
+    color: $mainBlue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+}

@@ -23,6 +23,10 @@
     color: #fff;
   }
 
+  &--cta-delivery {
+    background-color: $pale-blue;
+  }
+
   &--testimonials {
     background-color: #e0e6ef;
     @mixin atLarge {

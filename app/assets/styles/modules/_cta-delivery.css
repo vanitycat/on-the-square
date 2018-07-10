@@ -1,0 +1,21 @@
+.cta-delivery {
+
+  &__main {
+    transform: scale(.8);
+    display: none;
+
+    @mixin atMedium {
+      display: block;
+    }
+  }
+
+  &__sub {
+    transform: scale(.5);
+    transform-origin: left;
+  }
+
+  &__container {
+    width: 100%;
+    text-align: center;
+  }
+}

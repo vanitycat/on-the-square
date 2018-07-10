@@ -1,6 +1,7 @@
 .large-hero {
   position: relative;
   border-bottom: 10px solid $mainBlue;
+  background-color: $pale-blue;
 
   &__image {
     display: block;
@@ -25,6 +26,8 @@
       color:$mainBlue;
       font-size: 2.4rem;
       margin: 0;
+      background-color: #ffffff;
+      display: inline-block;
 
       @mixin atSmall {
         font-size: 4.8rem;
@@ -34,8 +37,11 @@
   &__subtitle {
       font-weight: 300;
       color:$mainBlue;
+      background-color: #ffffff;
+      display: inline-block;
       font-size: 1.5rem;
       margin: 0;
+      margin-top: 10px;
 
         @mixin atSmall {
           font-size: 2.9rem;

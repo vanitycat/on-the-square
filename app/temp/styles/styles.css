@@ -362,6 +362,7 @@ a {
 .large-hero {
   position: relative;
   border-bottom: 10px solid #2f5572;
+  background-color: #BFCFD7;
 }
 
 .large-hero__image {
@@ -391,6 +392,8 @@ a {
       color:#2f5572;
       font-size: 2.4rem;
       margin: 0;
+      background-color: #ffffff;
+      display: inline-block;
     }
 
 @media (min-width: 530px) {
@@ -403,8 +406,11 @@ a {
 .large-hero__subtitle {
       font-weight: 300;
       color:#2f5572;
+      background-color: #ffffff;
+      display: inline-block;
       font-size: 1.5rem;
       margin: 0;
+      margin-top: 10px;
 
       }
 
@@ -597,6 +603,10 @@ a {
 .page-section--blue {
     background-color: #2f5572;
     color: #fff;
+  }
+
+.page-section--cta-delivery {
+    background-color: #BFCFD7;
   }
 
 .page-section--testimonials {
@@ -877,79 +887,97 @@ a {
   }
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-d675eadb.svg');
+      background-image: url('../../assets/images/sprites/sprite-d5dff85c.svg');
     }
 
 .icon--clear-view-escapes {
     width: 142.4px;
     height: 59.53px;
-    background-position: 0 0;
+    background-position: 77.57789913266944% 68.3446523181185%;
   }
 
 .icon--comment {
     width: 64px;
     height: 64px;
-    background-position: 99.70443349753694% 0;
+    background-position: 0 100%;
   }
 
 .icon--facebook {
     width: 21.23px;
     height: 42.01px;
-    background-position: 26.040607071652357% 45.795830448496034%;
+    background-position: 99.65177406994098% 66.66760038656004%;
   }
 
 .icon--fire {
     width: 56px;
     height: 64px;
-    background-position: 0 99.56481481481481%;
+    background-position: 91.11424541607899% 77.38872832369943%;
+  }
+
+.icon--free {
+    width: 483px;
+    height: 216px;
+    background-position: 0 88.14814814814815%;
   }
 
 .icon--globe {
     width: 64px;
     height: 64px;
-    background-position: 27.586206896551722% 99.56481481481481%;
+    background-position: 9.12981455064194% 100%;
   }
 
 .icon--instagram {
     width: 42.01px;
     height: 42.01px;
-    background-position: 63.2917018534157% 49.234556504346486%;
+    background-position: 66.80590326283904% 89.29116654294877%;
+  }
+
+.icon--logo {
+    width: 99px;
+    height: 102px;
+    background-position: 72.52252252252252% 81.88532110091744%;
   }
 
 .icon--mail {
     width: 64px;
     height: 48px;
-    background-position: 0 48.00806451612903%;
+    background-position: 89.21540656205421% 67.2316384180791%;
   }
 
 .icon--rain {
     width: 64px;
     height: 64px;
-    background-position: 99.70443349753694% 59.25925925925926%;
+    background-position: 83.02425106990015% 77.38872832369943%;
   }
 
 .icon--star {
     width: 64px;
     height: 64px;
-    background-position: 59.11330049261084% 99.56481481481481%;
+    background-position: 18.25962910128388% 100%;
   }
 
 .icon--twitter {
     width: 51.78px;
     height: 42.06px;
-    background-position: 94.04330452560171% 98.50700323226104%;
+    background-position: 96.66021704382939% 66.67226937837913%;
+  }
+
+.icon--van {
+    width: 765px;
+    height: 476px;
+    background-position: 0 0;
   }
 
 .icon--wifi {
     width: 60px;
     height: 64px;
-    background-position: 68.79227053140097% 0;
+    background-position: 99.57446808510639% 77.38872832369943%;
   }
 
 .icon--youtube {
     width: 34.75px;
     height: 42px;
-    background-position: 36.69752421959096% 45.792307692307695%;
+    background-position: 71.89455665867854% 89.28991596638656%;
   }
 
 .site-footer {
@@ -1017,7 +1045,6 @@ a {
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #2f5572;
-    padding: 25px 36px;
   }
 
 @media (min-width: 800px) {
@@ -1317,3 +1344,97 @@ a {
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
     }
+
+.banner {
+  width: 100%;
+  background-color: #E9DEDA;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 800px) {
+
+.banner {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+  }
+
+.banner--middle {
+    background-color: #EBEBEB;
+  }
+
+.banner__title {
+    color: #2f5572;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+.price-box {
+  width: 100%;
+  background-color: #EBEBEB;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
+}
+
+@media (min-width: 800px) {
+
+.price-box {
+    padding-top: 80px;
+    padding-bottom: 80px
+
+
+}
+  }
+
+.price-box__photo img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+.price-box__title {
+    color: #2f5572;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+.price-box__subtitle {
+    color: #d59541;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    margin: .25rem 0 1rem 0;
+  }
+
+.cta-delivery__main {
+    -webkit-transform: scale(.8);
+            transform: scale(.8);
+    display: none;
+  }
+
+@media (min-width: 800px) {
+
+.cta-delivery__main {
+      display: block
+  }
+  }
+
+.cta-delivery__sub {
+    -webkit-transform: scale(.5);
+            transform: scale(.5);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+.cta-delivery__container {
+    width: 100%;
+    text-align: center;
+  }
